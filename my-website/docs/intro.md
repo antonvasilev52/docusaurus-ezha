@@ -17,13 +17,13 @@ For more detailed description of severity levels, refer to [Change inspection se
 
 ### Opening your file in IntelliJ IDEA
 
-Firts, let's open your Java file in IntelliJ IDEA. If its' already open, you can skip ahead to [identifying problems](#identifying-problems).
+Firts, let's open your Java file in IntelliJ IDEA. If it's already open, you can skip ahead to [identifying problems](#identifying-problems).
 
-To open a file in in IntelliJ IDEA:
+To open a file in IntelliJ IDEA:
 1. Launch IntelliJ IDEA.
 2. In the welcome screen that opens, click **Open**.
 3. Select the directory with your Java file and click **Open**.  
-  This will open the IntelliJ IDEA main window. You directory structure is displayed on the left side of the window, in the **Project** tool window.
+  This will open the IntelliJ IDEA main window. Your directory structure is displayed on the left side of the window, in the **Project** tool window.
 4. If the **Project JDK is not defined** message is displayed, click **Setup SDK** in the top right corner of the editor and select a JDK.
 
 At this point, your IntelliJ IDEA should look similar to the following:
