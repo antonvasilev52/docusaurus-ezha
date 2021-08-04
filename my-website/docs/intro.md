@@ -10,14 +10,14 @@ This short tutorial will show you how to find and fix problems in your Java file
 
 ### What problems IntelliJ IDEA can find
 
-IntelliJ IDEA automatically inspects the open file and highlights all elements of code that require correction or can be improved. In IntelliJ IDEA, such elements are known as *problems*.  
+IntelliJ IDEA automatically inspects the code quality of the open file and highlights all elements of code that require correction or can be improved. In IntelliJ IDEA, such elements are known as *problems*.  
 
 Each problem has a severity level, which depends on the impact that the problem has on your program. This includes **Errors** (problems that break your program, such as the use of undeclared variables), **Warnings** (places for improvement, violations of programming style guides), and **Typos** (spelling errors).  
 For more detailed description of severity levels, refer to [Change inspection severity](https://www.jetbrains.com/help/idea/configuring-inspection-severities.html).
 
 ### Opening your file in IntelliJ IDEA
 
-First, let's open your Java file in IntelliJ IDEA. If it's already open, you can skip ahead to [identifying problems](#identifying-problems).
+First, let's open your Java file in IntelliJ IDEA. If it's already open, you can skip ahead to [finding problems](#identifying-problems).
 
 To open a file in IntelliJ IDEA:
 1. Launch IntelliJ IDEA.
@@ -59,13 +59,13 @@ To find all problems in your file:
 
 :::tip Tip
 
-The overall status of problem inspection is also shown it the top right corner of the editor window.
+The overall status of problem inspection is also shown in the top right corner of the editor window.
 
 :::
   
 ### Fixing problems
 
-Besides manually modifying your source code, you can fix problems using IntelliJ IDEA *quick fixes*. Quick fixes are context actions used to quickly modify your code and solve a particular problem. One problem can have more than one available quick fix.
+Besides manually modifying your source code, you can fix problems using IntelliJ IDEA *quick fixes*. Quick fixes are context actions used to quickly modify your code and solve particular problems. One problem can have multiple quick fixes.
 
 To fix problems:
 1. In the **Problems** tab, right-click a problem.
@@ -81,7 +81,7 @@ IntelliJ IDEA will change your source code according to the selected quick fix.
 
 :::note Note
 
-The **Show Quick Fixes** can be unavailable if correcting an error requires an in-depth analysis of the code from your side.
+The **Show Quick Fixes** option can be unavailable if the selected problem requires an in-depth analysis from your side.
 
 :::
 
