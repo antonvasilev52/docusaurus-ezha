@@ -1,4 +1,4 @@
-# A small how-to based on docusaurus
+# A small tutorial based on Docusaurus
 
 This is a short tutorial that presents the basics of finding an fixing problems in IntelliJ IDEA.
 
