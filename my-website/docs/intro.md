@@ -3,7 +3,7 @@ sidebar_position: 1
 author: Anton
 ---
 
-# Fixing problems in a file in IntelliJ IDEA
+# Fixing code problems in IntelliJ IDEA
 
 This short tutorial will show you how to find and fix problems in your Java file using IntelliJ IDEA.
 
@@ -12,27 +12,38 @@ This short tutorial will show you how to find and fix problems in your Java file
 
 IntelliJ IDEA automatically inspects the open file and highlights all elements of code that require correction or can be improved. In IntelliJ IDEA, such elements are known as *problems*.  
 
-Each problem has a severity level, which depends on the impact that the problem has on your program. This includes **Errors** (problems that break your program, such as the use of undeclared variables), **Warnings** (places for improvement, violations of programming style guides), and **Typos**.  
+Each problem has a severity level, which depends on the impact that the problem has on your program. This includes **Errors** (problems that break your program, such as the use of undeclared variables), **Warnings** (places for improvement, violations of programming style guides), and **Typos** (spelling errors).  
 For more detailed description of severity levels, refer to [Change inspection severity](https://www.jetbrains.com/help/idea/configuring-inspection-severities.html).
 
 ### Opening your file in IntelliJ IDEA
 
-Firts, let's open your Java file in IntelliJ IDEA. If it's already open, you can skip ahead to [identifying problems](#identifying-problems).
+First, let's open your Java file in IntelliJ IDEA. If it's already open, you can skip ahead to [identifying problems](#identifying-problems).
 
 To open a file in IntelliJ IDEA:
 1. Launch IntelliJ IDEA.
 2. In the welcome screen that opens, click **Open**.
 3. Select the directory with your Java file and click **Open**.  
-  This will open the IntelliJ IDEA main window. Your directory structure is displayed on the left side of the window, in the **Project** tool window.
-4. If the **Project JDK is not defined** message is displayed, click **Setup SDK** in the top right corner of the editor and select a JDK.
+  This will open the IntelliJ IDEA main window. Your directory structure is displayed on the left side of the screen, in the **Project** tool window.
+4. In the **Project** tool window, select a file that you want to inspect for problems.
+
+
+:::note Note
+
+If this is the very first time that you develop a Java program in IntelliJ IDEA, you may need to [define an SDK](https://www.jetbrains.com/help/idea/sdk.html#define-sdk) before you proceed with finding problems.
+
+:::
 
 At this point, your IntelliJ IDEA should look similar to the following:
 
-![IDEA main window](/img/idea_main_window.jpg)
+<img
+  src={require('/img/idea_main_window.jpg').default}
+  alt="IDEA main window"
+  className="bigimg"
+/>
 
-### Identifying problems
+### Finding problems
 
-To identify all problems in your file:
+To find all problems in your file:
 1. Press **⌘6**.  
   This will open the **Problems** tab in the lower left corner.
 2. Select the **Current File** tab to view only errors found in the file that is currently open in the editor window.   
@@ -70,13 +81,13 @@ IntelliJ IDEA will change your source code according to the selected quick fix.
 
 :::note Note
 
-The **Show Quick Fixes** can be unavailable if correcting an error requires an in-depth analysis of your code. In this case, you should fix the errors manually.
+The **Show Quick Fixes** can be unavailable if correcting an error requires an in-depth analysis of the code from your side.
 
 :::
 
 ### Further readings
 
 You can get more from IntelliJ IDEA while fixing problems:
-+ For some of the problems, you can automate the process of problem fixing: correct them before committing to Git or when you save the file. For more information, refer to [Clean up your code](https://www.jetbrains.com/help/idea/resolving-problems.html#clean-up-code).
++ **Automation**. You can configure IntelliJ IDEA to automatically fix some of the problems before you commit your code to Git or when you save the file. For more information, refer to [Clean up your code](https://www.jetbrains.com/help/idea/resolving-problems.html#clean-up-code).
 
-+ You can customize code inspections and the scope to which they apply: [Configure profiles](https://www.jetbrains.com/help/idea/customizing-profiles.html).
++ **Customization**. If you do not want to see some problems, you can [disable and suppress inspections](https://www.jetbrains.com/help/idea/disabling-and-enabling-inspections.html). If you need more rules for inspecting your code, you can [create custom inspections](https://www.jetbrains.com/help/idea/creating-custom-inspections.html).
