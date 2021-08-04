@@ -17,7 +17,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
+            How to find 🔎 and fix 🛠️ problems in IntelliJ IDEA
           </Link>
         </div>
       </div>
