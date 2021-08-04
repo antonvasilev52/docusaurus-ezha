@@ -48,23 +48,25 @@ To identify all problems in your file:
 
 :::tip Tip
 
-The overall status of problem inspection is also shown at the top right of the editor window.
+The overall status of problem inspection is also shown it the top right corner of the editor window.
 
 :::
   
 ### Fixing problems
 
-Besides manually modifying your source code, you can fix problems using IntelliJ IDEA *quick fixes*.
+Besides manually modifying your source code, you can fix problems using IntelliJ IDEA *quick fixes*. Quick fixes are context actions used to quickly modify your code and solve a particular problem. One problem can have more than one available quick fix.
 
 To fix problems:
 1. In the **Problems** tab, right-click a problem.
-2. In the popup window, click **Show Quick Fixes**.
+2. In the popup window that opens, click **Show Quick Fixes**.
 3. Select one of the quick fixes. 
 <img
   src={require('/img/idea_quick_fixes.jpeg').default}
   alt="Quick fixes"
   className="smallimg"
 />
+
+IntelliJ IDEA will change your source code according to the selected quick fix.
 
 :::note Note
 
@@ -74,5 +76,7 @@ The **Show Quick Fixes** can be unavailable if correcting an error requires an i
 
 ### Further readings
 
-You can get much more from IntelliJ IDEA 
-IntelliJ IDEA can automate the process of problem fixing: correct all found problems at once, correct them before committing to Git or when you save the file. For more information, refer to [Clean up your code](https://www.jetbrains.com/help/idea/resolving-problems.html#clean-up-code).
+You can get more from IntelliJ IDEA while fixing problems:
++ For some of the problems, you can automate the process of problem fixing: correct them before committing to Git or when you save the file. For more information, refer to [Clean up your code](https://www.jetbrains.com/help/idea/resolving-problems.html#clean-up-code).
+
++ You can customize code inspections and the scope to which they apply: [Configure profiles](https://www.jetbrains.com/help/idea/customizing-profiles.html).

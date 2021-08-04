@@ -35,3 +35,8 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   width: 50%;
   border-radius: 8px;
 }
+
+.admonition-tip {
+  background-color: #d3ed9f;
+  color: black;
+}
