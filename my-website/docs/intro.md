@@ -85,13 +85,13 @@ In our sample code, IntelliJ IDEA found problems of the following severity level
 
 + **Errors**. These are problems that break your program. If you do not fix them, the compiler will fall with an error. Examples:
   * A code statement does not end with a semicolon.
-  * An undeclared variable is used. 
+  * An undeclared variable (`name`) is used. 
 
 + **Warnings**. These are code fragments that require improvements. They violate coding conventions or decrease code efficiency but do not prevent the program from compiling. Examples:
   + Local variable name does not start with a lowercase letter.
   + A variable is initialized but never used.
 
-+ **Weak Warning**. These are minor problems. Fixing them will optimize your code. In our example it is a block of code commented out.
++ **Weak Warning**. These are minor problems. Fixing them will optimize your code. In our example it is a block of code commented out—most probably it can be safely removed.
 
 For more detailed description of severity levels, refer to [Change inspection severity](https://www.jetbrains.com/help/idea/configuring-inspection-severities.html).
 
