@@ -91,7 +91,7 @@ In our sample code, IntelliJ IDEA found problems of the following severity level
   + Local variable name does not start with a lowercase letter.
   + A variable is initialized but never used.
 
-+ **Weak Warning**. These are minor problems. Fixing them will optimize your code. In our example it is a block of code commented out—most probably it can be safely removed.
++ **Weak Warning**. These are minor problems. Fixing them will optimize your code. In our example, it is a block of code commented out—most probably it can be safely removed.
 
 For more detailed description of severity levels, refer to [Change inspection severity](https://www.jetbrains.com/help/idea/configuring-inspection-severities.html).
 
