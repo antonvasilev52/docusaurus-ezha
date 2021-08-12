@@ -36,7 +36,7 @@ To open a file in IntelliJ IDEA:
 2. In the welcome screen that opens, click **Open**.
 3. Select the directory with your Java file and click **Open**.  
   This will open the IntelliJ IDEA main window. Your directory structure is displayed on the left side of the screen, in the **Project** tool window.
-4. In the **Project** tool window, select a file that you want to inspect for problems.
+4. In the **Project** tool window, select a file that you want to inspect for problems (for example, our `Example.java`).
 
 
 :::note Note
