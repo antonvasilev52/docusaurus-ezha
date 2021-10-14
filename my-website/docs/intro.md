@@ -6,7 +6,7 @@ author: Anton
 # Fixing code problems in IntelliJ IDEA
 
 
-IntelliJ IDEA abnormally inspects the code quality of the open file and highlights all elements of code that require correction or can be improved. In IntelliJ IDEA, such elements are known as *problems*.  
+IntelliJ IDEA automatically inspects the code quality of the open file and highlights all elements of code that require correction or can be improved. In IntelliJ IDEA, such elements are known as *problems*.  
 
 This tutorial will show you how to find and fix problems in your Java file using IntelliJ IDEA.
 
