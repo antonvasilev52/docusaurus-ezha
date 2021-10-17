@@ -24,7 +24,7 @@ jobs:
         config: https://raw.githubusercontent.com/errata-ai/vale/master/.vale.ini
 
         # Optional
-        files: all
+        files: /my-website/docs
       env:
         # Required
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
