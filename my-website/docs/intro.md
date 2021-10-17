@@ -41,7 +41,7 @@ To open a file in IntelliJ IDEA:
 
 :::note Note
 
-If this is the very first time that you develop a Java program in IntelliJ IDEA, you may need to [define an SDK](https://www.jetbrains.com/help/idea/sdk.html#define-sdk) before you proceed with finding problems.
+If this is the first time that you develop a Java program in IntelliJ IDEA, you may need to [define an SDK](https://www.jetbrains.com/help/idea/sdk.html#define-sdk) before you proceed with finding problems.
 
 :::
 
