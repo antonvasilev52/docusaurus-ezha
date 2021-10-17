@@ -5,4 +5,4 @@ ignorecase: false
 action:
   name: replace
 swap:
-  'fix': fix
+  'fix[es]?': correction|corrections
