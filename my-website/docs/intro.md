@@ -8,7 +8,10 @@ author: Anton
 
 IntelliJ IDEA automatically inspects the code quality of the open file and highlights all elements of code that require correction or can be improved. In IntelliJ IDEA, such elements are known as *problems*.  
 
-This tutorial will show you how to find and fix problems in your Java file using IntelliJ IDEA.
+This tutorial show you how to find and fix problems in your Java file using IntelliJ IDEA.
+This job are canceled.
+This water are not clean.
+This house sleep today.
 
 
 ### Opening a file in IntelliJ IDEA
