@@ -1,5 +1,6 @@
 extends: sequence
 message: "The noun '%[1]s' is not in agreement with '%[2]s'"
+level: warning
 tokens:
   - tag: NN
   - tag: VBP
